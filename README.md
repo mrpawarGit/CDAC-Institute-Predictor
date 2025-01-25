@@ -2,6 +2,11 @@
 
 A web-based application that helps students predict eligible institutes for the **CDAC DAC** course based on their rank and location preferences.
 
+## Live Demo
+
+You can try the CDAC Institute Predictor live here:  
+[CDAC Institute Predictor - Live Demo](https://mrpawargit.github.io/CDAC-Institute-Predictor/)
+
 ## Features
 - **User Input**: Collects name, email, mobile number, rank, and preferred location.
 - **Rank-Based Prediction**: Predicts eligible and non-eligible institutes based on the provided rank.

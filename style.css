@@ -1,0 +1,158 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 30px;
+    width: 100%;
+    max-width: 480px;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75rem;
+    color: #1a73e8;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h3{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-size: 1rem;
+    color: #555;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #1a73e8;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1a73e8;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button:hover {
+    background-color: #155ab6;
+}
+
+.result, .noteligible {
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-align: center;
+    
+
+}
+
+.result {
+    background-color: #d4edda;
+    color: #155724;
+    
+
+}
+
+.noteligible {
+    background-color: #f8d7da;
+    color: #721c24;
+    
+
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.6rem;
+    }
+    input {
+        padding: 10px;
+        font-size: 1rem;
+    }
+    button {
+        font-size: 1rem;
+        padding: 12px;
+    }
+    .container {
+        padding: 25px;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+    input {
+        padding: 8px;
+        font-size: 0.95rem;
+    }
+    button {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+    .container {
+        padding: 20px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.3rem;
+        margin-bottom: 10px;
+    }
+    input {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+    button {
+        font-size: 0.9rem;
+        padding: 9px;
+    }
+    .container {
+        padding: 15px;
+    }
+}

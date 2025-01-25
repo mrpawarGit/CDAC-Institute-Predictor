@@ -4,8 +4,7 @@ A web-based application that helps students predict eligible institutes for the 
 
 ## Live Demo
 
-You can try the CDAC Institute Predictor live here:  
-[CDAC Institute Predictor - Live Demo](https://mrpawargit.github.io/CDAC-Institute-Predictor/)
+You can try the CDAC Institute Predictor live here: [CDAC Institute Predictor - Live Demo](https://mrpawargit.github.io/CDAC-Institute-Predictor/)
 
 ## Features
 - **User Input**: Collects name, email, mobile number, rank, and preferred location.

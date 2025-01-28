@@ -1,4 +1,3 @@
-
 const colleges = [
     { name: "Sunbeam Pune", location: "Pune", minRank: 410, course: "DAC" },
     { name: "ACTS", location: "Pune", minRank: 782, course: "DAC" },
@@ -46,6 +45,13 @@ document.getElementById("predictorForm").addEventListener("submit", function (ev
         notEligibleElement.innerHTML = `<h3>Not Eligible Institutes</h3><ul>${notEligibleList}</ul>`;
     }
 
+    // the disclaimer
+    const disclaimer = `
+        <p style="margin-top: 20px; font-size: 0.9rem; color: #FF0000;">
+            The predictions are based on past cutoff data and are for reference only. Actual cutoffs may vary this year.
+        </p>`;
+    resultElement.innerHTML += disclaimer;
+
     submitButton.disabled = false;
     submitButton.innerText = "Predict Institute";
 });
@@ -66,4 +72,3 @@ function predictColleges(rank, location, colleges) {
         notEligibleColleges,
     };
 }
-    

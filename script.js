@@ -45,7 +45,7 @@ document.getElementById("predictorForm").addEventListener("submit", function (ev
         notEligibleElement.innerHTML = `<h3>Not Eligible Institutes</h3><ul>${notEligibleList}</ul>`;
     }
 
-    // the disclaimer
+    // the disclaimer Added
     const disclaimer = `
         <p style="margin-top: 20px; font-size: 0.9rem; color: #FF0000;">
             The predictions are based on past cutoff data and are for reference only. Actual cutoffs may vary this year.
